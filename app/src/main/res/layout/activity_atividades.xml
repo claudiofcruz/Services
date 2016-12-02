@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_atividades"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.fernandescruz.alarmservices.br.com.fernandescruz.services.AtividadesActivity">
+
+    <Button
+        android:text="Atividade 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAtividade1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="openAtividade1" />
+
+    <Button
+        android:text="ATIVIDADE 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAtividade1"
+        android:layout_alignStart="@+id/btnAtividade1"
+        android:layout_marginTop="21dp"
+        android:id="@+id/btnAtividade2"
+        android:onClick="openAtividade2" />
+
+    <Button
+        android:text="ATIVIDADE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAtividade2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/btnAtividade3"
+        android:onClick="openAtividade3" />
+
+    <Button
+        android:text="ATIVIDADE4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnAtividade4"
+        android:onClick="openAtividade4" />
+
+    <Button
+        android:text="ATIVIDADE5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAtividade4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnAtividade5"
+        android:onClick="openAtividade5" />/>
+</RelativeLayout>
